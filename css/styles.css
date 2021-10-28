@@ -6,11 +6,11 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    font-weight: 200;
-    background-color: var(--grey);
 }
 
+.altura {
+    padding: 100px;
+}
 .navbar {
     min-height: 5rem;
 }
@@ -18,3 +18,4 @@ body {
 .bg-light { background-color: var(--light) !important;}
 .bg-grey { background-color: var(--grey) !important;}
 .bg-dark { background-color: var(--dark) !important;}
+
