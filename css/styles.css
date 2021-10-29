@@ -29,6 +29,52 @@ h4 {
     background-color: var(--grey);
 }
 
+p, h3 {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #115552;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.solcials, li {
+    margin: 0 10px;
+}
+
+.socials, a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.socials, a, i{
+    font-size: 1.1rem;
+    transition: colo .4s ease;
+}
+
+.socials a:hover i{
+    color: bisque;
+}
 
 .bg-light { background-color: var(--light) !important;}
 .bg-grey { background-color: var(--grey) !important;}
