@@ -8,12 +8,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.altura {
-    padding: 100px;
+h1 {
+    padding-bottom: 30px;
+}
+
+h4 {
+    padding-bottom: 50px;
+}
+.inicio, .clientes, .proveedores {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 .navbar {
     min-height: 5rem;
 }
+
+.clientes {
+    background-color: var(--grey);
+}
+
 
 .bg-light { background-color: var(--light) !important;}
 .bg-grey { background-color: var(--grey) !important;}
